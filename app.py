@@ -27,7 +27,7 @@ async def root():
     nombre = "Hacking"
     apellido = "Tecnologias del futuro"
     comando = "Integración continua y hacking"
-    data = {"nombre":nombre, "apellido": "apellido":apellido, "comando":comando}
+    data = {"nombre":nombre, "apellido":apellido, "comando":comando}
     return {"message": data}
 
 
